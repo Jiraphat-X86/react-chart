@@ -10,14 +10,21 @@
   },
   "dependencies": {
     "@apollo/client": "^3.7.2",
+    "@redux-devtools/extension": "^3.2.3",
+    "@types/react-redux": "^7.1.24",
+    "@types/redux-saga": "^0.10.5",
     "antd": "^5.0.4",
     "graphql": "^16.6.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
     "react-router-dom": "^6.4.4",
     "recharts": "^2.1.16",
+    "redux": "^4.2.0",
+    "redux-saga": "^1.2.2",
+    "redux-thunk": "^2.4.2",
     "sort-by": "^1.2.0"
   },
   "devDependencies": {

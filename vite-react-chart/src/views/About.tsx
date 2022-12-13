@@ -8,7 +8,7 @@ function About() {
   return (
     <div>
       <p>This is a about views.</p>
-      <button onClick={() => navigate('/')}>Redirect</button>
+      <button onClick={() => navigate('/', { state: 'From the about page'})}>Redirect</button>
     </div>
   )
 }
